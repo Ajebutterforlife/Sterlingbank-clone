@@ -160,7 +160,7 @@ nav {
     font-weight: 900;
 }
 .hero2-content > p {
-     color: #7a7a7a;
+    color: #7a7a7a;
     font-size: 16px;
     margin: 14px 14px;
     width: 550px;
@@ -224,4 +224,116 @@ nav {
 
 .box > h5 {
 text-transform: capitalize;
+}
+.box > span {
+    font-size: 48px;
+}
+
+/* footer styling */
+
+.footer {
+    padding-block: 4rem;
+    background-color: #7a7a7a;
+
+}
+.footer-boxes {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    /* grid-template-columns: repeat(1fr 1fr 1fr 1fr 1fr 1fr); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    font-family: sans-serif;
+}
+.boxes > h4 {
+    text-transform: uppercase;
+    color: #eeeaea;
+}
+.boxes > a {
+    text-decoration: none;
+    color: #0b0b0b;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.box-three {
+    gap: 1rem;
+}
+.box-one {
+    gap: 10px;
+}
+.box-two {
+    gap: 10px;
+}
+.box-four {
+    gap: 10px;
+}
+.box-five {
+    gap: 10px;
+}
+.box-one > .icon {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    color: #eeeaea;
+}
+/* section four */
+
+.sec-four {
+    background-image: url(https://sterling.ng/wp-content/uploads/2026/02/clipboard-image-1770036530.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-block: 5rem;
+}
+
+.grid-options {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    /* border: 2px solid; */
+}
+
+.grid-card-option {
+    border-radius: 3rem 2rem;
+    box-shadow: .1rem .1rem 15px grey;
+    height: 40vh;
+}
+
+.grid-card-option:nth-child(even) {
+border-radius: 2rem 3rem;
+}
+
+.grid-card-option > img {
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 3rem;
+}
+
+.card-content {
+    padding: .4rem 2rem;
+}
+
+.card-content > h1 {
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.card-content > p {
+    font-size: 10px;
+    margin-block: .5rem;
+}
+
+.card-content > a {
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    text-decoration: none;
+    color: #a31920;
+    font-weight: 800;
+    font-size: 13px;
 }
