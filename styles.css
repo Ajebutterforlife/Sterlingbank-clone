@@ -528,7 +528,302 @@ nav {
         text-align: center;
         gap: 2rem;
     }
+    .heroOneContent {
+        text-align: center;
+    }
+    .cardOPtions {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+    }
+
 
 
 
 }
+
+.secOne {
+    background-image: url(https://sterling.ng/wp-content/uploads/2020/04/website-sliders8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    padding-block: 4rem;
+    border: 2px solid red;
+}
+.heroOneContent{ 
+   text-align: center;
+   /* margin: 5rem 5rem; */
+   margin: auto;
+   line-height: 1.2;
+   border: 2px solid red;
+   width: 80%;
+  
+}
+
+
+.heroOneContent > h1 {
+    font-size: 60px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 900;
+}
+
+.heroOneContent > p {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    font-family: sans-serif;
+}
+
+.heroOneContent > button {
+    background-color: rgb(196, 5, 5);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 14px 14px;
+}
+
+.secTwo {
+    padding-block: 5rem;
+}
+
+.cardOptions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border: 2px solid red;
+    
+}
+
+.card {
+    /* border-radius: 3rem 2rem; */
+    box-shadow: .1rem .1rem 15px grey;
+    border: 2px solid red;
+    width: 100%;
+    height: 70vh;
+
+}
+.card > img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    /* border-top-right-radius: 2rem; */
+    /* border-top-left-radius: 3rem; */
+}
+.cast {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    /* box-shadow: .1rem .1rem 15px grey; */
+}
+
+.cardContent {
+    padding: 2rem 2rem;
+}
+.cardContent > h3 {
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #7a7a7a;
+}
+.cardContent > p {
+    margin-block: 1.5rem;
+    color: #353535;
+    font-size: 15px;
+}
+.cardContent > button {
+    border: none;
+    border-radius: 20px;
+    padding: .7rem .7rem;
+    width: auto;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-color: rgb(167, 4, 4);
+}
+.secThree {
+    padding-block: 4rem;
+    
+}
+.singleCard {
+    box-shadow: .1rem .1rem 15px grey;
+    width: 100%;
+    height: 60vh;
+}
+.singleCard > img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    
+}
+.singleCardContent {
+    margin: 1rem 1rem;
+}
+
+.singleCardContent > h3 {
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #7a7a7a;
+}
+.singleCardContent > p {
+    color: #636363;
+    font-size: 14px;
+    margin: 10px 10px 0 0;
+
+}
+.singleCardContent > button {
+    border: none;
+    border-radius: 20px;
+    padding: .7rem .7rem;
+    width: auto;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-color: rgb(167, 4, 4);
+    margin: 1rem 0 0 0;
+}
+.secFour {
+    background-image: url(./image/secFourimage.jpg);
+    max-width: 1000px;
+    margin: auto;
+    border: 2px solid red;
+    padding-block: 4rem;
+    border-radius: 14px;
+    height: 70vh;
+}
+
+
+.secFourContent {
+    border: 2px solid rgb(14, 14, 14);
+    width: 50%;
+    margin: 2rem 0 0 6rem;
+    background-color: white;
+    border-radius: 14px;
+   
+}
+.secFourContent > h2 {
+    text-transform: capitalize;
+    font-size: 25px;
+    color: #7a7a7a;
+    padding: 1rem 2rem 0 0;
+    margin: .5rem 3rem;
+}
+.secFourContent > button {
+     border: none;
+     font-size: 12px;
+    border-radius: 20px;
+    padding: .8rem .8rem;
+    margin: 1.7rem 3rem;
+    width: auto;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-color: rgb(167, 4, 4);
+
+}
+.secFiveContent {
+    margin-block: 4rem;
+    background-color: rgb(244, 241, 241);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: .1rem .1rem 15px grey;
+    /* border: 2px solid red; */
+}
+.secFiveContent > h3 {
+    font-size: 30px;
+    color: #7a7a7a;
+    text-transform: capitalize;
+    padding-block: 1rem;
+    font-weight: 800;
+}
+.secFiveContent > p {
+    font-size: 15px;
+    padding-block: 1rem;
+    font-weight: 200;
+}
+.gridCard > img {
+    width: 100%;
+    height: 50vh;
+}
+.gridCard {
+    width: 100%;
+    height: 90vh;
+    box-shadow: .1rem .1rem 15px grey;
+}
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.gridCardContent {
+    margin: 1rem 1rem;
+}
+.gridCardContent > h3 {
+    text-transform: capitalize;
+    color: #7a7a7a;
+    font-size: 20px;
+}
+.gridCardContent > p {
+    font-size: 13px;
+    font-weight: 300;
+    margin: 2rem 0 0 0;
+}
+.gridCardContent > a {
+    text-decoration: none;
+    color: #a31920;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.button {
+    text-align: center;
+    padding-block: 4rem;
+}
+.button > button {
+    border: 2px solid red;
+    padding: .4rem .8rem;
+    text-transform: capitalize;
+    border-radius: 10px;
+    background-color: #a31920;
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.footerr {
+    background-color: #636363;
+    height: 70vh;
+    padding-block: 4rem;
+}
+
+.footerrContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+   
+   
+    
+}
+
+.footerContent {
+   display: flex;
+   flex-direction: column;
+    
+}
+.footerContent > h4 {
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 2.5;
+    color: white;
+}
+.footerContent > a {
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: rgb(152, 144, 144);
+    line-height: 1.5;
+    font-weight: 300;
+}
+
