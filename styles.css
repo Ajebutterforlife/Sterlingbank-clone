@@ -565,7 +565,7 @@ nav {
     background-image: url(https://sterling.ng/wp-content/uploads/2020/04/website-sliders8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    /* height: 70vh; */
     padding-block: 4rem;
     /* border: 2px solid red; */
 }
