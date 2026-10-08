@@ -589,7 +589,7 @@ nav {
 .heroOneContent > p {
     font-size: 20px;
     text-transform: capitalize;
-    color: white;
+    color: rgb(5, 0, 0);
     font-family: sans-serif;
 }
 
