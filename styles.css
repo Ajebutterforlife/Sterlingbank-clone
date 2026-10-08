@@ -541,6 +541,21 @@ nav {
    .singleCard {
     width: calc(100% - 40px) !important;
    }
+   .secFour {
+    width: calc(100% - 40px);
+   }
+   .secFiveContent {
+    width: calc(100% - 40px);
+   }
+   .gridContainer {
+    width: calc(100% - 40px);
+    grid-template-columns: 1fr !important;
+   }
+   .footerrContainer {
+    width: calc(100% - 40px);
+    grid-template-columns: 1fr !important;
+    text-align: center;
+   }
 
 
 
@@ -794,7 +809,7 @@ nav {
 }
 .footerr {
     background-color: #636363;
-    height: 70vh;
+    /* height: 70vh; */
     padding-block: 4rem;
 }
 
