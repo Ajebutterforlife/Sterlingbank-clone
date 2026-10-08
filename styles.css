@@ -519,9 +519,7 @@ nav {
     .grid-card-option {
         height: 45vh;
     }
-    .footer {
-
-    }
+    
     .footer-boxes {
         flex-direction: column;
         width: calc(100% - 40px);
@@ -531,11 +529,16 @@ nav {
     .heroOneContent {
         text-align: center;
     }
-    .cardOPtions {
-        flex-direction: column;
-        grid-template-columns: 1fr;
-    }
-
+   .cardOPtions {
+    border: 2px solid red;
+    width: calc(100% - 40px);
+    grid-template-columns: 1fr;
+   }
+   .card {
+    background-color: blue;
+    /* width: 100%; */
+    height: 20vh;
+   }
 
 
 
@@ -590,7 +593,7 @@ nav {
     padding-block: 5rem;
 }
 
-.cardOptions {
+.cardOPtions {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -602,7 +605,7 @@ nav {
     /* border-radius: 3rem 2rem; */
     box-shadow: .1rem .1rem 15px grey;
     /* border: 2px solid red; */
-    width: 100%;
+    /* width: 100%; */
     height: 70vh;
 
 }
@@ -613,13 +616,7 @@ nav {
     /* border-top-right-radius: 2rem; */
     /* border-top-left-radius: 3rem; */
 }
-.cast {
-    /* border: 2px solid red; */
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    /* box-shadow: .1rem .1rem 15px grey; */
-}
+
 
 .cardContent {
     padding: 2rem 2rem;
@@ -697,7 +694,7 @@ nav {
 
 
 .secFourContent {
-    border: 2px solid rgb(14, 14, 14);
+  
     width: 50%;
     margin: 2rem 0 0 6rem;
     background-color: white;
